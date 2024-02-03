@@ -136,7 +136,7 @@ import {
       title: "Freelance Developer",
       company_name: "Vissa Solutions Inc.",
       icon: starbucks,
-      iconBg: "#383E56",
+      iconBg: "#E6DEDD",
       date: "May 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
