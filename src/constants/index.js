@@ -139,8 +139,8 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Develop full-stack web applications - UI/UX design, front-end and back-end development, and integrations..",
+        "Design and implement cloud architecture, optimizing web application deployment and scalability on AWS.",
       ],
     },
     {
@@ -150,10 +150,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2022 - Nov 2022",
       points: [
-        "Drove 3 feature releases and provided recommendations to improve solution quality in enterprise warehouse applications.",
-        "Compiled market insights and customer feedback to refine and update product roadmaps, documentation and user stories.",
-        "Created solution outline for complex warehouse picking use-cases for a major EU-based electronics distributor.",
-        "Designed marketing brochures for Luminate AI and extended warehouse applications to improve product messaging.",
+        "Developed and maintained product requirement documents (PRD), epics, user stories, training content and marketing brochures to streamline the development process and improve product awareness.",
+        "Conducted user acceptance testing (UAT) for new features and system updates, identifying critical bugs and mitigating potential issues pre-deployment.",
+        "Collaborated with engineering, design, and marketing teams to prioritize and address product backlogs for 3 feature releases.",
       ],
     },
     {
@@ -163,7 +162,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Aug 2021 - May 2023",
       points: [
-        "Coursework - Advanced Statistics, Operations Research, Supply Chain, Human Factors Engineering, Lean Engineering.",
+        "Coursework - Advanced Statistics, Operations Research, Supply Chain, Quantitative Risk Analysis, Human Factors Engineering, Economics, Lean Engineering, Project Management.",
         "Activities - Operations Research Teaching Assistant.",
       ],
     },
@@ -174,12 +173,9 @@ import {
       iconBg: "#142736",
       date: "Jan 2020 - Jul 2021",
       points: [
-        "Managed 8 releases of the Loan Management System (LMS), optimized product roadmaps and ensured timely project delivery.",
-        "Led cross-functional projects to improve and optimize LMS functionalities for financial institutions, adding $5M of revenue.",
-        "Launched a streamlined and cost-effective, lite version of the LMS for smaller banks – accelerating implementations by 60%.",
-        "Created and refined high-fidelity wireframes for new products and features, adhering to user-centric design principles.",
-        "Developed APIs to enable seamless data retrieval from government and financial bureaus, expediting KYC and loan approvals.",
-        "Built and configured customized LMS workflows, provided maintenance and support based on customer requirements.",
+        "Managed the end-to-end product lifecycle of LMS, collaborating with leadership on vision and strategy, while guiding cross-functional agile teams to align development with business objectives and groom backlogs, culminating in the delivery of 8 major version releases.",
+        "Spearheaded the launch of LMS Lite, a streamlined version of the LMS, resulting in a 60% reduction in implementation time and generating $5M in additional revenue within the first year.",
+        "Built RESTful APIs with real-time validations for KYC and loan processing, achieving a reduction in loan turnaround time from 2 weeks to 1 day.",
       ],
     },
     {
@@ -200,8 +196,8 @@ import {
       iconBg: "#E6DEDD",
       date: "Jun 2018 - Aug 2018",
       points: [
-        "Designed dashboards with ElasticSearch and Kibana to detect truck trip data outliers, enabling effective course-corrections.",
-        "Produced technical documentation to facilitate training, simplifying the onboarding process for new features.",
+        "Built dashboards with ElasticSearch, Kibana, and Google Maps APIs to offer real-time insights into route optimization, and delivery tracking for logistics service providers. ",
+        "Crafted technical documentation to allow developers to integrate dashboards into Mojro PlanWyse platform.",
       ],
     },
     {
@@ -211,10 +207,8 @@ import {
       iconBg: "#E6DEDD",
       date: "Aug 2016 - Aug 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Coursework - Supply Chain Engineering, Operations Research, Statistical Modelling, Manufacturing Processes, Inventory Strategy, Product Design, Finance, Accounting, Marketing, Internet of Things, Intro to Neural Networks.",
+        "Activities - Head of Finances, Industrial Engineers Association.",
       ],
     },
   ];
