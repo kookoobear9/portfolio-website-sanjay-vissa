@@ -21,7 +21,11 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             A product manager, self-taught  <br className='sm:block hidden' />
             developer, UI/UX designer, tech <br className='sm:block hidden' />
-            enthusiast and artist
+            enthusiast and artist <br className='sm:block hidden' /> <br className='sm:block hidden' />
+            I am an aspiring jack of all trades with a passion for learning. <br className='sm:block hidden' />
+            I believe in making life simple, efficient and stress-free, <br className='sm:block hidden' />
+            and extend that mindset into the solutions I develop. <br className='sm:block hidden' />
+            Let's work together to bring some kickass ideas to life!
           </p>
         </div>
       </div>
