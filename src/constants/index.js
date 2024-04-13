@@ -242,9 +242,9 @@ import {
   
   const projects = [
     {
-      name: "Discover",
+      name: "Flappy Bird",
       description:
-        "Identify market needs, market size and solution gaps.",
+        "A minimalist version of the famous 'Flappy Bird' game",
       tags: [
         {
           name: "react",
@@ -260,12 +260,12 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://kookoobear9.github.io/flappyBird/",
     },
     {
-      name: "Plan",
+      name: "Chess",
       description:
-        "Mobilize teams to develop solution outline, assign priorities, and allocate tasks.",
+        "Check mate!",
       tags: [
         {
           name: "react",
@@ -281,50 +281,50 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://kookoobear9.github.io/Minimalist-Chess/",
     },
-    {
-      name: "Build",
-      description:
-        "Track build progress, troubleshoot bottlenecks, and document.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Ask",
-      description:
-        "Elicit feedback to improve the product and drive growth metrics.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Build",
+    //   description:
+    //     "Track build progress, troubleshoot bottlenecks, and document.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
+    // {
+    //   name: "Ask",
+    //   description:
+    //     "Elicit feedback to improve the product and drive growth metrics.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
 
   
