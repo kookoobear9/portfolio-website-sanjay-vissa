@@ -47,12 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
       >
-        I am a product manager with experience building B2B and B2C SaaS products. 
-        I am also a self taught developer with experience using languages like HTML, CSS, 
-        JavaScript, TypeScript, and frameworks like React, Node.js, and Three.js. I'm a 
-        quick learner and collaborate closely with clients to create efficient, scalable, 
-        and user-friendly solutions that solve real-world problems. Let's work together to 
-        bring your ideas to life!
+        I am an aspiring jack of all trades with a passion for learning. 
+        I believe in making life simple, efficient and stress-free, and 
+        extend that mindset into the solutions I develop.
+        Let's work together to bring some kickass ideas to life! 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
