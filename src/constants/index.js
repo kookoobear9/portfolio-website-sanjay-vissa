@@ -133,14 +133,14 @@ import {
   
   const experiences = [
     {
-      title: "Freelance Developer",
+      title: "Freelancer",
       company_name: "Vissa Solutions Inc.",
       icon: starbucks,
       iconBg: "#E6DEDD",
       date: "May 2023 - Present",
       points: [
-        "Develop full-stack web applications - UI/UX design, front-end and back-end development, and integrations..",
-        "Design and implement cloud architecture, optimizing web application deployment and scalability on AWS.",
+        "Web App Development - UI/UX design, front-end, integrations, and cloud architecture.",
+        "Other - Tutor, graphic designer, and food/grocery delivery driver.",
       ],
     },
     {
@@ -150,9 +150,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2022 - Nov 2022",
       points: [
-        "Developed and maintained product requirement documents (PRD), epics, user stories, training content and marketing brochures to streamline the development process and improve product awareness.",
-        "Conducted user acceptance testing (UAT) for new features and system updates, identifying critical bugs and mitigating potential issues pre-deployment.",
-        "Collaborated with engineering, design, and marketing teams to prioritize and address product backlogs for 3 feature releases.",
+        "Collaborated with engineering, design, and marketing teams to prioritize and address product backlogs for the Warehouse Management System (WMS).",
+        "Built and maintained product requirement documents (PRD), epics, training material, and developed product marketing brochures that contributed to a 10% uplift in lead generation.",
+        "Conducted user acceptance testing (UAT) for updates in receiving, storage, picking, packing, and shipping operations, identified critical bugs and mitigated potential issues pre-deployment - reduced support ticket volume by 7%.",
       ],
     },
     {
@@ -173,9 +173,9 @@ import {
       iconBg: "#142736",
       date: "Jan 2020 - Jul 2021",
       points: [
-        "Managed the end-to-end product lifecycle of LMS, collaborating with leadership on vision and strategy, while guiding cross-functional agile teams to align development with business objectives and groom backlogs, culminating in the delivery of 8 major version releases.",
-        "Spearheaded the launch of LMS Lite, a streamlined version of the LMS, resulting in a 60% reduction in implementation time and generating $5M in additional revenue within the first year.",
-        "Built RESTful APIs with real-time validations for KYC and loan processing, achieving a reduction in loan turnaround time from 2 weeks to 1 day.",
+        "Launched 8 major releases of a workflow-based Loan Management System (LMS), covering strategy, market research, design, testing, launch planning, introduction phases, outbound marketing, backlog management, documentation, and support.",
+        "Spearheaded the development and launch of a lite version of LMS - resulted in a 60% reduction in implementation time and generated $5M revenue.",
+        "Built RESTful APIs with real-time validations for “Know-Your-Customer” (KYC) and loan processing - achieved a 93% reduction in loan turnaround time (2 weeks to 1 day).",
       ],
     },
     {
@@ -185,8 +185,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Jun 2019 - Aug 2019",
       points: [
-        "Analyzed financial impacts of warehouse consolidation vs. retention post-GST, presented insights for decision-making.",
-        "Built reusable templates in Excel to determine the viability of consolidation projects using Discounted Cash Flow models.",
+        "Conducted in-depth financial analysis on the implications of India's Goods and Services Tax (GST) transition in warehousing operations, pinpointing optimal regions for warehouse centralization that promised a profitable net cash flow forecast.",
       ],
     },
     {
@@ -196,8 +195,8 @@ import {
       iconBg: "#E6DEDD",
       date: "Jun 2018 - Aug 2018",
       points: [
-        "Built dashboards with ElasticSearch, Kibana, and Google Maps APIs to offer real-time insights into route optimization, and delivery tracking for logistics service providers. ",
-        "Crafted technical documentation to allow developers to integrate dashboards into Mojro PlanWyse platform.",
+        "Built dashboards with ElasticSearch, Kibana, and Google Maps APIs to offer real-time insights into route optimization and delivery tracking for fulfilment logistics service providers.",
+        "Prepared documentation for PlanWyse dashboard integrations - reduced ticket volume by 5%.",
       ],
     },
     {
@@ -283,27 +282,27 @@ import {
       image: jobit,
       source_code_link: "https://kookoobear9.github.io/Minimalist-Chess/",
     },
-    // {
-    //   name: "Build",
-    //   description:
-    //     "Track build progress, troubleshoot bottlenecks, and document.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "This Website",
+      description:
+        "Whoa! Is this what inception is?",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
     // {
     //   name: "Ask",
     //   description:
