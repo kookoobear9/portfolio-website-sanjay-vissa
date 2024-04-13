@@ -47,9 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
       >
-        I am an aspiring jack of all trades with a passion for learning. 
-        I believe in making life simple, efficient and stress-free, and 
-        extend that mindset into the solutions I develop.
+        I am an aspiring jack of all trades with a passion for learning. I believe in making life simple, efficient and stress-free, and extend that mindset into the solutions I develop.
         Let's work together to bring some kickass ideas to life! 
       </motion.p>
 
