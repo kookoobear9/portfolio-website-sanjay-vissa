@@ -59,13 +59,9 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Experience and Education.
-        </h2>
+      <motion.div >
+        {/* <p className={styles.sectionSubText}>Introduction</p> */}
+        <h2 className={styles.sectionHeadText}>Experience and Education</h2>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
