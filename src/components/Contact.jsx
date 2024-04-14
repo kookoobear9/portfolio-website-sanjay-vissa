@@ -84,6 +84,7 @@ const Contact = () => {
 
         
         <p className={styles.sectionSubText}>
+        <br className='sm:block hidden' />
         Email: sanjayvissa0@gmail.com <br className='sm:block hidden' /><br className='sm:block hidden' />
         </p>
         {/* <form
