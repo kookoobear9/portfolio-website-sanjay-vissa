@@ -189,7 +189,7 @@ import {
       ],
     },
     {
-      title: "Product Analyst Intern",
+      title: "Data Analyst Intern",
       company_name: "Mojro Technologies",
       icon: mojro,
       iconBg: "#E6DEDD",
