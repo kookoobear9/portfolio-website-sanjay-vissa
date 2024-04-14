@@ -122,6 +122,10 @@
   background: transparent !important; /* Attempt to enforce transparency */
 }
 
+.badge-base  {
+  padding: 0px, 0px, 0px, 0px;
+}
+
 
 /* canvas- styles */
 .canvas-loader {
