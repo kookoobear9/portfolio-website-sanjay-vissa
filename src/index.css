@@ -114,6 +114,15 @@
   -webkit-text-fill-color: transparent;
 }
 
+.linkedin-badge {
+  background: transparent;
+}
+
+.linkedin-badge iframe {
+  background: transparent !important; /* Attempt to enforce transparency */
+}
+
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
