@@ -73,7 +73,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         {/* <p className={styles.sectionSubText}>Get in touch</p> */}
-        <h3 className={styles.sectionHeadText}>Contact Me</h3>
+        <h4 className={styles.sectionHeadText}>Contact Me</h4>
         <p className={styles.sectionSubText}>
         <br className='sm:block hidden' />
         sanjayvissa0@gmail.com <br className='sm:block hidden' />
