@@ -11,29 +11,21 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        
+
         {/* <About /> */}
 
         <div className="relative z-0">
         <Works />
+        <Experience />
+        <Contact />
         <StarsCanvas />
         </div>
         
         {/* <HowPage /> */}
         
-        <div className="relative z-0">
-        <Experience />
-        <StarsCanvas />
-        </div>
-        
         {/* <Tech /> */}
         
         {/* <Feedbacks /> */}
-        
-        <div className="relative z-0">
-          <Contact />
-          <StarsCanvas />
-        </div>
 
    </div> 
     </BrowserRouter>

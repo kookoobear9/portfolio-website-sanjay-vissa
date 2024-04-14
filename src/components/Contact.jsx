@@ -73,10 +73,10 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         {/* <p className={styles.sectionSubText}>Get in touch</p> */}
-        <h4 className={styles.sectionHeadText}>Contact Me</h4>
+        <h4 className={styles.sectionHeadText}>Get in touch</h4>
         <p className={styles.sectionSubText}>
         <br className='sm:block hidden' />
-        sanjayvissa0@gmail.com <br className='sm:block hidden' />
+        Feel free to reach out to me via email or LinkedIn sanjayvissa0@gmail.com <br className='sm:block hidden' />
         <a href="https://www.linkedin.com/in/sanjayvissa/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </p>
         {/* <form
