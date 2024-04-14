@@ -37,7 +37,7 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[260px] sm:h-[180px] w-full place-content-center'
       >
-        {/* <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[230px]'>
           <img
             src={image}
             alt='project_image'
@@ -56,7 +56,7 @@ const ProjectCard = ({
               />
             </div>
           </div>
-        </div> */}
+        </div>
 
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px] text-center'>{name}</h3>
