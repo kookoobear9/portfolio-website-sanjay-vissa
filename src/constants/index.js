@@ -22,6 +22,7 @@ import {
     mojro,
     rvce,
     carrent,
+    underconstruction,
     jobit,
     tripguide,
     threejs,
@@ -246,15 +247,15 @@ import {
         "A minimalist version of the famous 'Flappy Bird' game",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
@@ -267,15 +268,15 @@ import {
         "Check mate!",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
@@ -288,42 +289,42 @@ import {
         "Whoa! Is this what inception is?",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "nextjs",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "3js",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
       source_code_link: "https://kookoobear9.github.io/portfolio-website-sanjay-vissa/", 
     },
-    // {
-    //   name: "Ask",
-    //   description:
-    //     "Elicit feedback to improve the product and drive growth metrics.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "There's more",
+      description:
+        "Currently in the process of consolidating and uploading projects to GitHub",
+      tags: [
+        {
+          name: "place",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "holder",
+          color: "green-text-gradient",
+        },
+        {
+          name: "text",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: underconstruction,
+      source_code_link: "https://github.com/kookoobear9",
+    },
   ];
 
   
