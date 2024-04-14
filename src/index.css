@@ -120,6 +120,8 @@
 
 .linkedin-badge iframe {
   background: transparent !important; /* Attempt to enforce transparency */
+  width: auto;
+  height: auto;
 }
 
 .badge-base  {
