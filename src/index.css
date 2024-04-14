@@ -114,22 +114,13 @@
   -webkit-text-fill-color: transparent;
 }
 
-.linkedin-badge {
-  background: transparent;
-}
-
-.linkedin-badge iframe {
-  background: transparent !important; /* Attempt to enforce transparency */
-  width: auto;
-  height: auto;
-}
-
 .badge-base  {
   padding: 0px, 0px, 0px, 0px;
 }
 
 .LI-profile-badge {
   padding: 0px, 0px, 0px, 0px;
+  width: 250px;
 }
 
 
