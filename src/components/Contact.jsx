@@ -77,8 +77,8 @@ const Contact = () => {
         <p className={styles.sectionSubText}>
         <br className='sm:block hidden' />
         Feel free to reach out to me via <br className='sm:block hidden' /> <br className='sm:block hidden' />
-        Email: sanjayvissa0@gmail.com <br className='sm:block hidden' />
-        or <br className='sm:block hidden' />
+        Email: sanjayvissa0@gmail.com <br className='sm:block hidden' /><br className='sm:block hidden' />
+        or <br className='sm:block hidden' /><br className='sm:block hidden' />
         <a href="https://www.linkedin.com/in/sanjayvissa/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </p>
         {/* <form
