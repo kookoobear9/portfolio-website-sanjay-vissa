@@ -77,7 +77,7 @@ const Contact = () => {
         <p className={styles.sectionSubText}>
         <br className='sm:block hidden' />
         sanjayvissa0@gmail.com <br className='sm:block hidden' />
-        <a href="https://www.linkedin.com/in/sanjayvissa/">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/sanjayvissa/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </p>
         {/* <form
           ref={formRef}
