@@ -244,7 +244,7 @@ import {
     {
       name: "Flappy Bird",
       description:
-        "A minimalist version of the famous 'Flappy Bird' game",
+        "A minimalist version of the famous 'Flappy Bird' game (Desktop Only)",
       tags: [
         {
           name: "html",
@@ -265,7 +265,7 @@ import {
     {
       name: "Chess",
       description:
-        "Check mate!",
+        "Check mate!  (Desktop Only)",
       tags: [
         {
           name: "html",
