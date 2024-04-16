@@ -73,7 +73,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         {/* <p className={styles.sectionSubText}>Get in touch</p> */}
-        <h4 className={styles.sectionHeadText}>Get in touch</h4>
+        <h4 className={styles.sectionHeadText}>Let's talk!</h4>
         
         {/* <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="sanjayvissa" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/sanjayvissa?trk=profile-badge"></a></div> */}
         
