@@ -86,7 +86,7 @@ const Contact = () => {
 
         {/* If breaks, Uncomment above line AND delete from here, to: */}
 
-        <iframe src="./canvas/linkedin.html" frameborder="0" style="display: block;" height="322" width="310"></iframe>
+        <iframe src="./linkedin.html" frameborder="0" style="display: block;" height="322" width="310"></iframe>
 
 {/* Delete till Here */}
 
