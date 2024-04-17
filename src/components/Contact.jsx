@@ -92,7 +92,7 @@ const Contact = () => {
               <head></head>
               <body> */}
                   
-                  
+                  {/* <link rel="stylesheet" href="https://static.licdn.com/sc/h/2lgytu9f1z9n54epparouqzhy"/>  */}
               
                   <div class="profile-badge profile-badge--width-250 profile-badge--dark" dir="ltr">
                           
