@@ -86,13 +86,13 @@ const Contact = () => {
 
         {/* If breaks, Uncomment above line AND delete from here, to: */}
 
-        {/* <iframe frameborder="0" style="display: block;" height="322" width="310">
+        <iframe frameborder="0" style="display: block;" height="322" width="310">
 
-          <html>
+          {/* <html>
               <head></head>
               <body> */}
                   
-                  {/* <link rel="stylesheet" href="https://static.licdn.com/sc/h/2lgytu9f1z9n54epparouqzhy"/>  */}
+                  <link rel="stylesheet" href="https://static.licdn.com/sc/h/2lgytu9f1z9n54epparouqzhy"/> 
               
                   <div class="profile-badge profile-badge--width-250 profile-badge--dark" dir="ltr">
                           
@@ -140,9 +140,9 @@ const Contact = () => {
             
               {/* </body>
 
-          </html>
+          </html> */}
 
-          </iframe> */}
+          </iframe>
 
 {/* Delete till Here */}
 
