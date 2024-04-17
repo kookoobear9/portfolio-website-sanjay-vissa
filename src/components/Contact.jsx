@@ -82,7 +82,7 @@ const Contact = () => {
         Email: sanjayvissa0@gmail.com <br className='sm:block hidden' /> <br className='sm:block hidden' />
         </p>
        
-        {/* <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="sanjayvissa" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/sanjayvissa?trk=profile-badge"></a></div> */}
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="sanjayvissa" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/sanjayvissa?trk=profile-badge"></a></div>
 
         {/* If breaks, Uncomment above line AND delete from here, to: */}
 
