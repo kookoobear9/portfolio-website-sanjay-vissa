@@ -134,27 +134,28 @@ import {
   
   const experiences = [
     {
+      title: "Implementation and Customer Support Consultant",
+      company_name: "OMP USA",
+      icon: starbucks,
+      iconBg: "#E6DEDD",
+      date: "May 2024 - Present",
+      points: [],
+    },
+    {
       title: "Freelancer",
       company_name: "Vissa Solutions Inc.",
       icon: starbucks,
       iconBg: "#E6DEDD",
       date: "May 2023 - Present",
-      points: [
-        "Web App Development - UI/UX design, front-end, integrations, and cloud architecture.",
-        "Other - Tutor, graphic designer, and food/grocery delivery driver.",
-      ],
+      points: [],
     },
     {
-      title: "Product Manager Intern",
+      title: "Product Development Intern",
       company_name: "Blue Yonder Inc.",
       icon: blueyonder,
       iconBg: "#E6DEDD",
       date: "Jan 2022 - Nov 2022",
-      points: [
-        "Collaborated with engineering, design, and marketing teams to prioritize and address product backlogs for the Warehouse Management System (WMS).",
-        "Built and maintained product requirement documents (PRD), epics, training material, and developed product marketing brochures that contributed to a 10% uplift in lead generation.",
-        "Conducted user acceptance testing (UAT) for updates in receiving, storage, picking, packing, and shipping operations, identified critical bugs and mitigated potential issues pre-deployment - reduced support ticket volume by 7%.",
-      ],
+      points: [],
     },
     {
       title: "Master of Engineering in Industrial Engineering",
@@ -162,10 +163,7 @@ import {
       icon: tamu,
       iconBg: "#E6DEDD",
       date: "Aug 2021 - May 2023",
-      points: [
-        "Coursework - Advanced Statistics, Operations Research, Supply Chain, Quantitative Risk Analysis, Human Factors Engineering, Economics, Lean Engineering, Project Management.",
-        "Activities - Operations Research Teaching Assistant.",
-      ],
+      points: [],
     },
     {
       title: "Product Manager",
@@ -173,32 +171,23 @@ import {
       icon: finvolv,
       iconBg: "#142736",
       date: "Jan 2020 - Jul 2021",
-      points: [
-        "Launched 8 major releases of a workflow-based Loan Management System (LMS), covering strategy, market research, design, testing, launch planning, introduction phases, outbound marketing, backlog management, documentation, and support.",
-        "Spearheaded the development and launch of a lite version of LMS - resulted in a 60% reduction in implementation time and generated $5M revenue.",
-        "Built RESTful APIs with real-time validations for “Know-Your-Customer” (KYC) and loan processing - achieved a 93% reduction in loan turnaround time (2 weeks to 1 day).",
-      ],
+      points: [],
     },
     {
-      title: "Financial Analyst Intern",
+      title: "Analyst Intern",
       company_name: "Piramal Capital and Housing Finance Ltd.",
       icon: piramal,
       iconBg: "#E6DEDD",
       date: "Jun 2019 - Aug 2019",
-      points: [
-        "Conducted in-depth financial analysis on the implications of India's Goods and Services Tax (GST) transition in warehousing operations, pinpointing optimal regions for warehouse centralization that promised a profitable net cash flow forecast.",
-      ],
+      points: [],
     },
     {
-      title: "Data Analyst Intern",
+      title: "Analyst Intern",
       company_name: "Mojro Technologies",
       icon: mojro,
       iconBg: "#E6DEDD",
       date: "Jun 2018 - Aug 2018",
-      points: [
-        "Built dashboards with ElasticSearch, Kibana, and Google Maps APIs to offer real-time insights into route optimization and delivery tracking for fulfilment logistics service providers.",
-        "Prepared documentation for PlanWyse dashboard integrations - reduced ticket volume by 5%.",
-      ],
+      points: [],
     },
     {
       title: "Bachelor of Engineering in Industrial Engineering",
@@ -206,10 +195,7 @@ import {
       icon: rvce,
       iconBg: "#E6DEDD",
       date: "Aug 2016 - Aug 2020",
-      points: [
-        "Coursework - Supply Chain Engineering, Operations Research, Statistical Modelling, Manufacturing Processes, Inventory Strategy, Product Design, Finance, Accounting, Marketing, Internet of Things, Intro to Neural Networks.",
-        "Activities - Head of Finances, Industrial Engineers Association.",
-      ],
+      points: [],
     },
   ];
   
