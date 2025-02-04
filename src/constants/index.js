@@ -137,7 +137,7 @@ import {
     {
       title: "Implementation and Customer Support Consultant",
       company_name: "OMP USA",
-      icon: starbucks,
+      icon: omp,
       iconBg: "#E6DEDD",
       date: "May 2024 - Present",
       points: [],
