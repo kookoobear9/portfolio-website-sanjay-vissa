@@ -35,6 +35,7 @@ import rvce from "./company/rvce.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import omp from "./company/omp.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -72,6 +73,7 @@ export {
   mojro,
   rvce,
   carrent,
+  omp,
   underconstruction,
   jobit,
   tripguide,
