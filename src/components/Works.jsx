@@ -84,7 +84,6 @@ const Works = () => {
       <motion.div variants={textVariant()}>
         
         <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
-        <p className={`${styles.sectionSubText} `}><br className='sm:block hidden' /> <br className='sm:block hidden' /> </p>
       </motion.div>
 
       <div className='w-full flex'>
@@ -94,7 +93,7 @@ const Works = () => {
         > </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-10 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
