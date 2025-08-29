@@ -9,7 +9,7 @@
 // export default Works
 
 
-import React from "react";
+
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -35,9 +35,9 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[260px] sm:h-[180px] w-full place-content-center'
+        className='bg-tertiary p-5 rounded-2xl w-[320px] sm:w-[320px] flex-shrink-0'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[180px]'>
           <img
             src={image}
             alt='project_image'
@@ -58,20 +58,21 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px] text-center'>{name}</h3>
-          <p className='mt-5 text-secondary text-[14px] text-center'>{description}</p>
-        </div>
-
-        <div className='mt-4 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
+        <div className='mt-4 h-32 flex flex-col justify-between'>
+          <div>
+            <h3 className='text-white font-bold text-[20px] text-center line-clamp-2'>{name}</h3>
+            <p className='mt-2 text-secondary text-[12px] text-center line-clamp-3'>{description}</p>
+          </div>
+          <div className='flex flex-wrap gap-1 justify-center'>
+            {tags.map((tag) => (
+              <p
+                key={`${name}-${tag.name}`}
+                className={`text-[12px] ${tag.color}`}
+              >
+                #{tag.name}
+              </p>
+            ))}
+          </div>
         </div>
       </Tilt>
     </motion.div>
@@ -84,20 +85,15 @@ const Works = () => {
       <motion.div variants={textVariant()}>
         
         <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
-        <p className={`${styles.sectionSubText} `}><br className='sm:block hidden' /> <br className='sm:block hidden' /> </p>
       </motion.div>
 
-      <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        > </motion.p>
-      </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
+      <div className='mt-12 overflow-x-auto overflow-y-hidden scrollbar-hide'>
+        <div className='flex gap-7 pb-6' style={{ width: 'max-content', scrollBehavior: 'smooth' }}>
+          {projects.map((project, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))}
+        </div>
       </div>
     </>
   );

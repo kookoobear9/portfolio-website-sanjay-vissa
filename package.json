@@ -5,9 +5,6 @@
   "type": "module",
   "homepage": "https://kookoobear9.github.io/portfolio-website-sanjay-vissa",
   "scripts": {
-    "start": "react-scripts start",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "dev": "vite",
     "build": "vite build --base=/portfolio-website-sanjay-vissa/",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",

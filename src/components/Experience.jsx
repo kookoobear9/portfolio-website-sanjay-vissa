@@ -1,4 +1,3 @@
-import React from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -59,12 +58,12 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div >
+      <motion.div variants={textVariant()}>
         {/* <p className={styles.sectionSubText}>Introduction</p> */}
         <h2 className={styles.sectionHeadText}>Experience and Education</h2>
       </motion.div>
 
-      <div className='mt-20 flex flex-col'>
+      <div className='mt-12 flex flex-col'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard

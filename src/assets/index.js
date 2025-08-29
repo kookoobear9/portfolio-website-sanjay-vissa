@@ -32,11 +32,8 @@ import piramal from "./company/piramal.png";
 import mojro from "./company/mojro.png";
 import rvce from "./company/rvce.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import omp from "./company/omp.png";
-import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import underconstruction from "./underconstruction.png"
