@@ -134,7 +134,7 @@ import {
   
   const experiences = [
     {
-      title: "Implementation and Customer Support Consultant",
+      title: "Supply Chain Consultant",
       company_name: "OMP USA",
       icon: omp,
       iconBg: "#E6DEDD",
@@ -142,7 +142,7 @@ import {
       points: [],
     },
     {
-      title: "Freelancer",
+      title: "Freelance Consultant",
       company_name: "Vissa Solutions Inc.",
       icon: starbucks,
       iconBg: "#E6DEDD",
@@ -150,11 +150,19 @@ import {
       points: [],
     },
     {
-      title: "Product Development Intern",
+      title: "Teaching Assistant",
+      company_name: "Texas A&M University",
+      icon: tamu,
+      iconBg: "#E6DEDD",
+      date: "Jan 2023 - May 2023",
+      points: [],
+    },
+    {
+      title: "Product Management Intern",
       company_name: "Blue Yonder Inc.",
       icon: blueyonder,
       iconBg: "#E6DEDD",
-      date: "Jan 2022 - Nov 2022",
+      date: "Jan 2022 - Dec 2022",
       points: [],
     },
     {
