@@ -236,9 +236,9 @@ import {
   
   const projects = [
     {
-      name: "Flappy Bird",
+      name: "Flappy Box",
       description:
-        "A minimalist version of the famous 'Flappy Bird' game (Desktop Only)",
+        "A minimalist version of the famous 'Flappy Bird' game",
       tags: [
         {
           name: "html",
@@ -299,9 +299,9 @@ import {
       source_code_link: "https://kookoobear9.github.io/portfolio-website-sanjay-vissa/", 
     },
     {
-      name: "There's more",
+      name: "Forever trying to build something",
       description:
-        "Currently in the process of consolidating and uploading projects to GitHub",
+        "There will be more projects here soon. Stay tuned!",
       tags: [
         {
           name: "place",
