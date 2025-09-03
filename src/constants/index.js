@@ -146,7 +146,7 @@ import {
       company_name: "Vissa Solutions Inc.",
       icon: starbucks,
       iconBg: "#FFFFFF",
-      date: "May 2023 - Present",
+      date: "May 2023 - Apr 2024",
       points: [],
     },
     {
