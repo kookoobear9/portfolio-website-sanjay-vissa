@@ -68,20 +68,20 @@ const Feedbacks = () => {
           <h2 className={styles.sectionHeadText}>Testimonials</h2>
         </motion.div>
 
-        <div className='flex gap-2'>
+        <div className='flex gap-3'>
           <button
             onClick={() => scroll('left')}
-            className='bg-tertiary hover:bg-[#1a1a2e] w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition-colors'
+            className='bg-[#915EFF] hover:bg-[#7c4fd8] w-12 h-12 rounded-full flex justify-center items-center cursor-pointer transition-all shadow-lg hover:shadow-xl'
             aria-label='Scroll left'
           >
-            <span className='text-white text-xl'>‹</span>
+            <span className='text-white text-3xl font-bold'>‹</span>
           </button>
           <button
             onClick={() => scroll('right')}
-            className='bg-tertiary hover:bg-[#1a1a2e] w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition-colors'
+            className='bg-[#915EFF] hover:bg-[#7c4fd8] w-12 h-12 rounded-full flex justify-center items-center cursor-pointer transition-all shadow-lg hover:shadow-xl'
             aria-label='Scroll right'
           >
-            <span className='text-white text-xl'>›</span>
+            <span className='text-white text-3xl font-bold'>›</span>
           </button>
         </div>
       </div>
