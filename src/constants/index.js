@@ -237,7 +237,7 @@ import {
         "He is ever keen to honing new skills and pays utmost attention to even the minute details. ",
       name: "Sathwik Ramaprasad",
       designation: "Product Manager",
-      company: "RV College of Engineering",
+      company: "Henkel",
       //image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
