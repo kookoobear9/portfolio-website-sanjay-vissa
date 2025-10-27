@@ -10,6 +10,7 @@
 
 
 
+import { useRef } from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -46,14 +47,46 @@ const FeedbackCard = ({
 );
 
 const Feedbacks = () => {
+  const scrollContainerRef = useRef(null);
+
+  const scroll = (direction) => {
+    const container = scrollContainerRef.current;
+    if (container) {
+      const scrollAmount = 380;
+      container.scrollBy({
+        left: direction === 'left' ? -scrollAmount : scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What others say</p>
-        <h2 className={styles.sectionHeadText}>Testimonials</h2>
-      </motion.div>
+      <div className='flex justify-between items-center'>
+        <motion.div variants={textVariant()}>
+          <p className={styles.sectionSubText}>What others say</p>
+          <h2 className={styles.sectionHeadText}>Testimonials</h2>
+        </motion.div>
 
-      <div className='mt-12 overflow-x-auto overflow-y-hidden scrollbar-hide'>
+        <div className='flex gap-2'>
+          <button
+            onClick={() => scroll('left')}
+            className='bg-tertiary hover:bg-[#1a1a2e] w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition-colors'
+            aria-label='Scroll left'
+          >
+            <span className='text-white text-xl'>‹</span>
+          </button>
+          <button
+            onClick={() => scroll('right')}
+            className='bg-tertiary hover:bg-[#1a1a2e] w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition-colors'
+            aria-label='Scroll right'
+          >
+            <span className='text-white text-xl'>›</span>
+          </button>
+        </div>
+      </div>
+
+      <div ref={scrollContainerRef} className='mt-12 overflow-x-auto overflow-y-hidden scrollbar-hide'>
         <div className='flex gap-7 pb-6' style={{ width: 'max-content', scrollBehavior: 'smooth' }}>
           {testimonials.map((testimonial, index) => (
             <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
