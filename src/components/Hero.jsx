@@ -22,7 +22,10 @@ const Hero = () => {
             An industrial engineer, product manager, consultant, self-taught developer, tech enthusiast, and artist.
           </p>
           <p className={`${styles.heroSubText} mt-6 text-white-100 leading-relaxed`}>
-            I am an aspiring jack of all trades with a passion for learning. I value simplicity, efficiency and elegance, extending that mindset into the solutions I develop.
+            I am an aspiring jack of all trades with a passion for learning.
+          </p>
+          <p className={`${styles.heroSubText} mt-6 text-white-100 leading-relaxed`}>
+            I value simplicity, efficiency and elegance, extending that mindset into the solutions I develop.
           </p>
           <p className={`${styles.heroSubText} mt-6 text-white-100 leading-relaxed`}>
             Let&apos;s work together to bring some great ideas to life!
