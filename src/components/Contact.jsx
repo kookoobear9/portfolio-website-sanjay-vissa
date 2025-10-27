@@ -22,16 +22,16 @@ const Contact = () => {
 
         <div className="text-center mb-8 px-2 space-y-2">
           <p className="text-white-100 text-base leading-relaxed">
-            Have a bold idea that needs bringing to life?
+            Have a bold idea that needs to be brought to life?
           </p>
           <p className="text-white-100 text-base leading-relaxed">
             Looking for a creative partner to tackle complex challenges?
           </p>
           <p className="text-white-100 text-base leading-relaxed">
-            Let&apos;s connect and explore what we can build together.
+            Let&apos;s connect and discover how we can work together.
           </p>
           <p className="text-white-100 text-base leading-relaxed mt-4">
-            <span className="text-[#336BD2] font-medium">Let&apos;s collaborate</span> and create something amazing.
+            <span className="text-[#336BD2] font-medium">Together</span>, we can create something impactful.Let&apos;s collaborate and create something amazing.
           </p>
         </div>
        

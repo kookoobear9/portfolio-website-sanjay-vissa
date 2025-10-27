@@ -19,10 +19,10 @@ const Hero = () => {
             Hi, I&apos;m <span className='text-white'>Sanjay</span>
           </h1>
           <p className={`${styles.heroSubText} mt-4 text-white-100 leading-relaxed`}>
-            An industrial engineer, product manager, consultant, self-taught UI/UX designer and developer, tech enthusiast, and artist.
+            An industrial engineer, product manager, consultant, self-taught developer, tech enthusiast, and artist.
           </p>
           <p className={`${styles.heroSubText} mt-6 text-white-100 leading-relaxed`}>
-            I am an aspiring jack of all trades with a passion for learning. I believe in making life simple, efficient and stress-free, and extend that mindset into the solutions I develop.
+            I am an aspiring jack of all trades with a passion for learning. I value simplicity, efficiency and elegance, extending that mindset into the solutions I develop.
           </p>
           <p className={`${styles.heroSubText} mt-6 text-white-100 leading-relaxed`}>
             Let&apos;s work together to bring some great ideas to life!
