@@ -10,7 +10,7 @@
 
 
 
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -48,6 +48,27 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   const scrollContainerRef = useRef(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
+
+  const checkScroll = () => {
+    const container = scrollContainerRef.current;
+    if (container) {
+      setCanScrollLeft(container.scrollLeft > 0);
+      setCanScrollRight(
+        container.scrollLeft < container.scrollWidth - container.clientWidth - 1
+      );
+    }
+  };
+
+  useEffect(() => {
+    const container = scrollContainerRef.current;
+    if (container) {
+      checkScroll();
+      container.addEventListener('scroll', checkScroll);
+      return () => container.removeEventListener('scroll', checkScroll);
+    }
+  }, []);
 
   const scroll = (direction) => {
     const container = scrollContainerRef.current;
@@ -71,14 +92,24 @@ const Feedbacks = () => {
         <div className='flex gap-3'>
           <button
             onClick={() => scroll('left')}
-            className='bg-[#915EFF] hover:bg-[#7c4fd8] w-12 h-12 rounded-full flex justify-center items-center cursor-pointer transition-all shadow-lg hover:shadow-xl'
+            disabled={!canScrollLeft}
+            className={`w-12 h-12 rounded-full flex justify-center items-center transition-all shadow-lg ${
+              canScrollLeft
+                ? 'bg-[#915EFF] hover:bg-[#7c4fd8] cursor-pointer hover:shadow-xl'
+                : 'bg-gray-600 cursor-not-allowed opacity-50'
+            }`}
             aria-label='Scroll left'
           >
             <span className='text-white text-3xl font-bold'>‹</span>
           </button>
           <button
             onClick={() => scroll('right')}
-            className='bg-[#915EFF] hover:bg-[#7c4fd8] w-12 h-12 rounded-full flex justify-center items-center cursor-pointer transition-all shadow-lg hover:shadow-xl'
+            disabled={!canScrollRight}
+            className={`w-12 h-12 rounded-full flex justify-center items-center transition-all shadow-lg ${
+              canScrollRight
+                ? 'bg-[#915EFF] hover:bg-[#7c4fd8] cursor-pointer hover:shadow-xl'
+                : 'bg-gray-600 cursor-not-allowed opacity-50'
+            }`}
             aria-label='Scroll right'
           >
             <span className='text-white text-3xl font-bold'>›</span>
