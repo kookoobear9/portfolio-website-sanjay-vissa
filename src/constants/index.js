@@ -134,7 +134,7 @@ import {
   
   const experiences = [
     {
-      title: "Supply Chain Consultant",
+      title: "Solution Consultant",
       company_name: "OMP USA",
       icon: omp,
       iconBg: "#FFFFFF",
@@ -142,7 +142,7 @@ import {
       points: [],
     },
     {
-      title: "Freelance Consultant",
+      title: "Freelancer",
       company_name: "Vissa Solutions Inc.",
       icon: starbucks,
       iconBg: "#FFFFFF",
@@ -158,7 +158,7 @@ import {
       points: [],
     },
     {
-      title: "Product Management Intern",
+      title: "Product Manager",
       company_name: "Blue Yonder Inc.",
       icon: blueyonder,
       iconBg: "#FFFFFF",
@@ -182,7 +182,7 @@ import {
       points: [],
     },
     {
-      title: "Analyst Intern",
+      title: "Finance Intern",
       company_name: "Piramal Capital and Housing Finance Ltd.",
       icon: piramal,
       iconBg: "#FFFFFF",
@@ -190,7 +190,7 @@ import {
       points: [],
     },
     {
-      title: "Analyst Intern",
+      title: "Product Intern",
       company_name: "Mojro Technologies",
       icon: mojro,
       iconBg: "#FFFFFF",
