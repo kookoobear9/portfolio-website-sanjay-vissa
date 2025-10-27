@@ -210,27 +210,35 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Sanjay quickly grasps complex concepts and shows a strong work ethic. His attention to detail and collaborative approach enable him to drive his responsibilities with minimal oversight.",
+      name: "Joe Kozenski",
+      designation: "Product Director",
+      company: "Blue Yonder",
+      //image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I have great confidence in his ability to add value in product roles, seeking to build customer-centric and profitable digital solutions.",
+      name: "Maninder Singh",
+      designation: "Product Owner",
+      company: "Finvolv",
+      //image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "I'm confident in Sanjay's ability to contribute value in any product role, as he consistently strives to create customer-centric and profitable digital solutions.",
+      name: "Mohd Ammar Wasim",
+      designation: "Product Manager",
+      company: "Finvolv",
+      //image: "https://randomuser.me/api/portraits/women/6.jpg",
+    },
+    {
+      testimonial:
+        "He is ever keen to honing new skills and pays utmost attention to even the minute details. ",
+      name: "Sathwik Ramaprasad",
+      designation: "Product Manager",
+      company: "RV College of Engineering",
+      //image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
